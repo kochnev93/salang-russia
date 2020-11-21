@@ -1,0 +1,176 @@
+@import "reset"; // Обнуление стилей
+@import "fonts"; // Подключение шрифтов
+@import "social-icons";
+
+
+
+// Переменные
+$main-color: #F0A997;
+$second-color: #D97EC4;
+$third-color: #D9B57E;
+$about-btn-color:  #BA81FE;
+$header-text-color: white;
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #222222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+h1{
+    font-size: 32px;
+}
+  
+h2{
+    font-size: 30px;
+}
+  
+h3{
+    font-size: 14px;
+}
+  
+h4{
+    font-size: 18px;
+}
+  
+h5{
+    font-size: 16px;
+}
+  
+h6{
+    font-size: 14px;
+    color: #222222;
+}
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #222222;
+    overflow-x: hidden;
+}
+
+.header{
+    padding: 15px 0;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+
+    &__wave{
+        position: absolute;
+        top: -50px;
+    }
+}
+
+.logo{
+    font-size: 34px;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 50px;
+    li{
+        margin-right: 20px;
+        a{
+            font-size: 14px;
+            color: $header-text-color;
+            &:hover{
+                padding-bottom: 3px;
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+}
+
+.contact{
+    display: flex;
+
+    &__phone{
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+        a{
+            color: white;
+            font-size: 20px;
+            font-weight: 600;  
+        }
+    }
+}
+
+.main{
+    height: 100vh;
+    background: radial-gradient(#fff, #ebd2cd);  
+}
+
+.about-container{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+
+.about{
+    flex-direction: column;
+    position: relative;
+
+    &__title{
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 50px;
+        span{
+            font-weight: 900;
+        }
+    }
+
+    &__button{
+        display: inline-block;
+        background-color: $about-btn-color;
+        padding: 20px 80px;
+        border-radius: 35px;
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+
+        &:focus{
+            outline: none;
+            color: white;
+        }
+        &:hover{
+            background-color: lighten($about-btn-color, 6.5%);
+            color: white;
+        }
+    }
+
+    &__img{
+        transform: scale(1.5);
+        position: absolute;
+        right: 100px;
+    }
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: end;
+    li a{
+        color: black;
+        &:hover{
+            padding-bottom: 3px;
+            border-bottom: 1px solid black;
+        }
+    }
+}
+
+
+
+
+
+  
+
+

@@ -1,0 +1,117 @@
+$pay-btn-color:  #BA81FE;
+
+.order{
+    height: 100vh;
+    background: radial-gradient(#fff, #ebd2cd);  
+}
+
+.order-container{
+    height: 75vh;
+}
+
+.purchase{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    //height: 70vh;
+
+    &__title{
+        margin-bottom: 60px;
+        font-size: 48px;
+    } 
+    &__photo img{
+        max-width: 150px;
+    } 
+}
+
+.counter{
+    input{
+        font-size: 36px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #button_minus, #button_plus{
+        background: transparent;
+        font-size: 36px;
+        padding: 5px;
+    }
+}
+
+.form__group{
+    
+    .form__input{
+        display: flex;
+        flex-direction: column;
+        input{
+            font-family: "Montserrat", sans-serif;
+            font-size: 20px;
+            margin-bottom: 10px;
+            height: 50px;
+            padding: 5px 10px;
+        }
+        textarea{
+            height: 100px;
+            padding: 5px 10px;
+            font-size: 18px;
+            resize: none;
+        }
+    }
+}
+
+.form{
+    &__title{
+        h3{
+            display: block;
+            font-size: 24px; 
+        }
+        margin-bottom: 30px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid black;
+    }
+}
+
+.adress{
+    display: flex;
+    justify-content: space-between;
+    input{
+        width: 48%;
+    }
+}
+
+.delivery{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    label{
+        padding-left: 30px;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    #r1{
+        position: absolute;
+        top: 2px;
+    }
+    #r2{
+        position: absolute;
+        top: 68px;
+    }
+}
+
+.pay__button{
+    background-color: $pay-btn-color;
+    width: 100%;
+    padding: 15px 50px;
+    border-radius: 35px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+
+    &:focus{
+        outline: none;
+        color: white;
+    }
+    &:hover{
+        background-color: lighten($pay-btn-color, 6.5%);
+        color: white;
+    } 
+}
