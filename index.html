@@ -4,7 +4,7 @@
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/fav.png">
+	    <link rel="shortcut icon" href="img/fav.png">
 	<!-- Author Meta -->
 	<meta name="author" content="Kochnev Anton">
 	<!-- Meta Description -->
@@ -14,92 +14,328 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-    <title>Salang Russia</title>
+  <title>Salang Russia</title>
 
     <!--CSS -->
-    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/icon-fonts.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <header class="header"> 
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Salang</a>
+            <button class="navbar-toggler header__burger" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Магазин</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Контакты</a>
+                </li>
+              </ul>
+              <div class="navbar-contact">
+                <a class="navbar-phone" href="tel:+79999999999>+7 (999) 999-99-99</a>
+                <ul class="navbar-social">
+                  <li class="social-link inst"><a href="#" class="icon-instagram"></a></li>
+                  <li class="social-link wa"><a href="#" class="icon-whatsapp"></a></li>
+                </ul>
+              </div>
+
+            </div>
+          </nav>
+        </div>
+    </header><!-- header -->
+
     <main>
         <section class="main">
+            <div class="container">
+                <div class="slider">
 
-            <header class="header">
-                <svg class="header__wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f79696" fill-opacity="1" d="M0,256L48,234.7C96,213,192,171,288,154.7C384,139,480,149,576,170.7C672,192,768,224,864,240C960,256,1056,256,1152,240C1248,224,1344,192,1392,176L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-                
-                <div class="container">
-                    <div class="row">
-                        <div class="col-7 d-flex align-items-center">
-                            <h1 class="logo">Salang</h1>
-                            <ul class="menu">
-                                <li class="menu__link"><a href="#">Характеристики</a></li>
-                                <li class="menu__link"><a href="#">Отзывы</a></li>
-                                 <li class="menu__link"><a href="#">Доставка</a></li>
-                             </ul>
-                        </div>
-        
-                        <div class="col-5 d-flex align-items-center justify-content-end">
-                            <div class="contact">
-                                <div class="contact__phone">
-                                    <a href="tel: +7 (999) 999-99-99">+7 (999) 999-99-99</a>
-                                </div>
-
-                                <div class="social">
-                                    <ul>
-                                        <li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
-                                        <li class="whatsapp"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li>
-                                    </ul>
+                    <div class="slider__item">
+                        <div class="row slider__container">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 order-sm-2 col-12 order-2 slider__text">
+                                <div class="slider__title">eosika</div>
+                                <h2 class="slider__subtitle">sipl-900</h2>
+                                <p class="slider__desc">больше никакого бритья, воска и пинцета!</p>
+                                <div class="slider__button-grp">
+                                    <a class="slider__button-pay" href="order.html">Купить</a>
+                                    <a class="slider__button-about" href="#">Подробнее</a>
                                 </div>
                             </div>
-
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 order-sm-1 col-12 order-1 slider__img">
+                                <img src="img/product1.png" alt="Eosika SIPL-900">
+                            </div>
                         </div>
                     </div>
-                </div>
-            </header>
 
-            <div class="container about-container">
-                <div class="row d-flex align-items-center">
-                    <div class="col-8 about">
-                        <h1 class="about__title">Эффективный, безопасный и надежный фотоэпилятор за <span>5000₽</span></h1>
-                        <a class="about__button" href="order.html">Купить</a>
-                    </div>
+                    <div class="slider__item">
+                      <div class="row slider__container">
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 order-sm-2 col-12 order-2 slider__text">
+                              <div class="slider__title">eosika</div>
+                              <h2 class="slider__subtitle">sipl-800</h2>
+                              <p class="slider__desc">больше никакого бритья, воска и пинцета!</p>
+                              <div class="slider__button-grp">
+                                  <a class="slider__button-pay" href="order.html">Купить</a>
+                                  <a class="slider__button-about" href="#">Подробнее</a>
+                              </div>
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 order-sm-1 col-12 order-1 slider__img">
+                              <img src="img/product1.png" alt="Eosika SIPL-900">
+                          </div>
+                      </div>
+                  </div>
 
-                    <div class="col-4 about__img">
-                        <img src="img/product2.png" alt="">
-                    </div>
                 </div>
             </div>
+
+            <svg id="wave1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L80,181.3C160,203,320,245,480,266.7C640,288,800,288,960,266.7C1120,245,1280,203,1360,181.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+        </section><!-- Main -->
+
+        <section class="about">
+            <div class="container">
+                <div class="title-group">
+                    <h2 class="about__title">Salang Russia</h2>
+                    <p class="about__subtitle">Живи легко и&nbsp;будь счастлива</p>
+                </div>
+
+                    <div class="row about__container">
+                        <div class="col-md-3 col-sm-6 about-item">
+                            <div class="item__icon"><img src="img/elements/quality.png" alt=""></div>
+                            <h3 class="item__title">Корейское качество</h3>
+                            <p class="item__desc">Высокий контроль качества и&nbsp;безопасность</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6 about-item">
+                            <div class="item__icon"><img src="img/elements/quality.png" alt=""></div>
+                            <h3 class="item__title">Корейское качество</h3>
+                            <p class="item__desc">Высокий контроль качества и&nbsp;безопасность</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6 about-item">
+                            <div class="item__icon"><img src="img/elements/quality.png" alt=""></div>
+                            <h3 class="item__title">ГАРАНТИЙНОЕ ОБСЛУЖИВАНИЕ</h3>
+                            <p class="item__desc">Официальная гарантия 2&nbsp;года</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6 about-item">
+                            <div class="item__icon"><img src="img/elements/quality.png" alt=""></div>
+                            <h3 class="item__title">РЕАЛЬНЫЙ РЕЗУЛЬТАТ</h3>
+                            <p class="item__desc">Видимый результат уже на&nbsp;следующий день</p>
+                        </div>
+                    </div>
+
+            </div>
+
+        </section><!-- About -->
+
+        <section class="product">
+            <svg id="wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L80,181.3C160,203,320,245,480,266.7C640,288,800,288,960,266.7C1120,245,1280,203,1360,181.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
 
             <div class="container">
-                <div class="row d-flex align-items-center justify-content-center skills">
-                    <div class="col-3 skill-item"></div>
-                    <div class="col-3 skill-item"></div>
-                    <div class="col-3 skill-item"></div>
-                    <div class="col-3 skill-item"></div>
+                <div class="title-group">
+                     <div class="eosika-img"><img src="img/eosika-logo.png" alt=""></div>
+                     <p class="about__subtitle">Лучшие продукты в&nbsp;косметологии</p>
                 </div>
-            </div>
 
-            <footer>
-                <div class="container">
-                    <div class="row d-flex align-items-center">
-                        <div class="col-6">
-                            <h3>Salang Russia. Все права защищены.</h3>
+                <div class="product-container">
+
+                    <div class="product-wrap">
+                        <div class="product-image">
+                          <a href=""><img src="img/product1.png"></a>
+                          <div class="shadow"></div>
+                          <div class="actions">
+                            <div class="actions-btn">
+                              <div class="add-to-cart">
+                                <a class="add-to-cart-button" href="#" title="Добавить в корзину">В корзину</a>
+                              </div>
+                              <div class="add-to-links">
+                                <div class="quikview">
+                                  <a class="quikview-button" href="#" title="Купить">Купить</a>
+                                </div>
+                            </div>
+                              </div>
+                            </div>
                         </div>
-                        <div class="col-6 d-flex justify-content-end">
-                            <ul class="menu footer-menu">
-                                <li class="menu__link"><a href="#">Политика конфидициальности</a></li>
-                                <li class="menu__link"><a href="#">Оферта</a></li>
-                            </ul>
+                        <div class="product-list">
+                          <h3>EOSIKA SIPL-900</h3>
+                          <div class="price">3000 &#8381; </div>
                         </div>
                     </div>
+
+                    <div class="product-wrap">
+                        <div class="product-image">
+                          <a href=""><img src="img/product1.png"></a>
+                          <div class="shadow"></div>
+                          <div class="actions">
+                            <div class="actions-btn">
+                              <div class="add-to-cart">
+                                <a class="add-to-cart-button" href="#" title="Добавить в корзину">В корзину</a>
+                              </div>
+                              <div class="add-to-links">
+                                <div class="quikview">
+                                  <a class="quikview-button" href="#" title="Купить">Купить</a>
+                                </div>
+                            </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="product-list">
+                          <h3>EOSIKA SIPL-800</h3>
+                          <div class="price">3000 &#8381; </div>
+                        </div>
+                    </div>
+
+                    <div class="product-wrap">
+                        <div class="product-image">
+                          <a href=""><img src="img/product1.png"></a>
+                          <div class="shadow"></div>
+                          <div class="actions">
+                            <div class="actions-btn">
+                              <div class="add-to-cart">
+                                <a class="add-to-cart-button" href="#" title="Добавить в корзину">В корзину</a>
+                              </div>
+                              <div class="add-to-links">
+                                <div class="quikview">
+                                  <a class="quikview-button" href="#" title="Купить">Купить</a>
+                                </div>
+                            </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="product-list">
+                          <h3>EOSIKA SIPL-700</h3>
+                          <div class="price">3000 &#8381; </div>
+                        </div>
+                    </div>
+
+                    <div class="product-wrap">
+                        <div class="product-image">
+                          <a href=""><img src="img/product1.png"></a>
+                          <div class="shadow"></div>
+                          <div class="actions">
+                            <div class="actions-btn">
+                              <div class="add-to-cart">
+                                <a class="add-to-cart-button" href="#" title="Добавить в корзину">В корзину</a>
+                              </div>
+                              <div class="add-to-links">
+                                <div class="quikview">
+                                  <a class="quikview-button" href="#" title="Купить">Купить</a>
+                                </div>
+                            </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="product-list">
+                          <h3>EOSIKA SIPL-600</h3>
+                          <div class="price">3000 &#8381; </div>
+                        </div>
+                    </div>
+
+                    <div class="product-wrap">
+                        <div class="product-image">
+                          <a href=""><img src="img/product1.png"></a>
+                          <div class="shadow"></div>
+                          <div class="actions">
+                            <div class="actions-btn">
+                              <div class="add-to-cart">
+                                <a class="add-to-cart-button" href="#" title="Добавить в корзину">В корзину</a>
+                              </div>
+                              <div class="add-to-links">
+                                <div class="quikview">
+                                  <a class="quikview-button" href="#" title="Купить">Купить</a>
+                                </div>
+                            </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="product-list">
+                          <h3>EOSIKA SIPL-500</h3>
+                          <div class="price">3000 &#8381; </div>
+                        </div>
+                    </div>
+
+                    <div class="product-wrap">
+                        <div class="product-image">
+                          <a href=""><img src="img/product1.png"></a>
+                          <div class="shadow"></div>
+                          <div class="actions">
+                            <div class="actions-btn">
+                              <div class="add-to-cart">
+                                <a class="add-to-cart-button" href="#" title="Добавить в корзину">В корзину</a>
+                              </div>
+                              <div class="add-to-links">
+                                <div class="quikview">
+                                  <a class="quikview-button" href="#" title="Купить">Купить</a>
+                                </div>
+                            </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="product-list">
+                          <h3>EOSIKA SIPL-400</h3>
+                          <div class="price">3000 &#8381; </div>
+                        </div>
+                    </div>
+
                 </div>
-            </footer>
+            </div>
+        </section><!-- Product -->
+
+        <section class="contact">
+            <div class="container">
+                <div class="row contact-container">
+                    <div class="col-sm-4 col-12">
+                        <ul class="contact__menu">
+                            <li><a href="">Гарантия</a></li>
+                            <li><a href="">Доставка</a></li>
+                            <li><a href="">О компании</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-12 contact__group ">
+                        <ul class="contact__menu">
+                            <li><a href="tel:+79999999999">+7 (999) 999-99-99</a></li>
+                            <li><a href="mailto:mail@salang.ru">mail@salang.ru</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-12 footer-contact">
+                            <h3>Напишите нам:</h3>
+                            <div class="social">
+                              <ul class="navbar-social footer-social">
+                                <li class="social-link inst"><a href="#" class="icon-instagram"></a></li>
+                                <li class="social-link wa"><a href="#" class="icon-whatsapp"></a></li>
+                              </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <footer>
+            <div class="container">
+                <div class="row footer-container">
+                    <div class="col-3 footer-logo">
+                        <h3><a>Salang</a></h3>
+                    </div>
+                    <div class="col-9 footer-doc">
+                        <ul class="menu footer-menu">
+                            <li class="menu__link"><a href="#">Политика конфидициальности</a></li>
+                            <li class="menu__link"><a href="#">Оферта</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
 
 <script src="js/vendor/jquery-3.5.1.min.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/main.js"></script>
 
 </body>
